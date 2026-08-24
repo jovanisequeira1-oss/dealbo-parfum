@@ -1,0 +1,6 @@
+{
+  "name": "DEALBO PARFUM",
+  "description": "Tienda online de perfumes premium en Jardín América y Posadas, Misiones. 'No te vayas sin oler bien'.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

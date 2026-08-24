@@ -1,0 +1,28 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Dealbo Perfumes catalog
+    match /dealbo_perfumes/{perfumeId} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    // Dealbo Orders
+    match /dealbo_orders/{orderId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+    
+    // Store configuration & Announcement
+    match /dealbo_config/{configId} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    // Catch-all fallback
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

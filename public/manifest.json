@@ -1,0 +1,22 @@
+{
+  "short_name": "DEALBO",
+  "name": "DEALBO PARFUM - No te vayas sin oler bien",
+  "description": "Tienda de perfumes seleccionados en Jardín América y Posadas, Misiones.",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=192&auto=format&fit=crop",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=512&auto=format&fit=crop",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "display": "standalone",
+  "orientation": "portrait"
+}
